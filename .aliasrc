@@ -1,0 +1,9 @@
+alias \
+  ek="cd /usr/src" \
+  ea="nvim ~/.aliasrc" \
+  es="nvim ~/.zshrc" \
+  ef="nvim ~/.funcsrc" \
+  godev="cd ~/dev" \
+  upgrade="sudo pacman -Syu" \
+  lspkgs="pacman -Q" \
+  myip="curl ipinfo.io/ip" \

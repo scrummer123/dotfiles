@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/simon/dev/python/currency'
+let g:netrw_dirhist_2='/home/simon/Dev/react-native/mytourist-mobile'
+let g:netrw_dirhist_1='/home/simon/Dev/python/simpCoin'

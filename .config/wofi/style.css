@@ -1,0 +1,49 @@
+* {
+  font-family: SauceCodePro Nerd Font;
+  font-size: 18px;
+  color: #e5e9f0;
+}
+
+window {
+  background-color: #201515;
+  border: 3px solid #c9545d;
+  border-radius: 15px;
+}
+
+#outer-box {
+  margin-bottom: 12px;
+}
+
+#input {
+  border: none;
+  background-color: #201515;
+  margin: 7px;
+  box-shadow: none; /* Remove blue "border" */
+}
+
+#inner-box {
+  background-color: #201515;
+  margin: 7px;
+  margin-top: 0;
+}
+
+#entry {
+  border: none;
+  margin: .25px -4px;
+  outline: none;
+  border-bottom: 3px dashed #201515;
+}
+
+#entry:selected {
+  background-color: #302020;
+  border-bottom: 3px dashed #c9545d;
+}
+
+#text {
+  margin: 2px;
+}
+
+/* Hide backspace icon */
+.right {
+  color: transparent;
+}

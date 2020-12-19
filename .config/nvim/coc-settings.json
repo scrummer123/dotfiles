@@ -1,0 +1,5 @@
+{
+	"coc.preferences.formatOnSaveFiletypes": ["css", "typescript", "typescriptreact", "javascript", "javascriptreact"],
+	"suggest.autoTrigger": "always",
+	"suggest.triggerAfterInsertEnter": true
+}
