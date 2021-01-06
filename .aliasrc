@@ -1,5 +1,5 @@
 alias \
-  ek="cd /usr/src" \
+  ek="cd $($SCRIPTS/edit_kernel.py)" \
   ea="nvim ~/.aliasrc" \
   es="nvim ~/.zshrc" \
   ef="nvim ~/.funcsrc" \
@@ -7,3 +7,6 @@ alias \
   upgrade="sudo pacman -Syu" \
   lspkgs="pacman -Q" \
   myip="curl ipinfo.io/ip" \
+  shutdown="sudo openrc-shutdown -p now" \
+  reboot="sudo openrc-shutdown -r now" \
+  back="cd -"

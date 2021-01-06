@@ -4,6 +4,9 @@
 !.aliasrc
 !.funcsrc
 
+!.scripts/
+!.scripts/*
+
 !.config/
 .config/*
 

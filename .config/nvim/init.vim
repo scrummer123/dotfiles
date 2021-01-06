@@ -24,6 +24,14 @@ nmap <C-p> :GFiles<CR>
 " move among buffers with CTRL
 map <C-J> :bnext<CR>
 map <C-K> :bprev<CR>
+" quit terminal
+tnoremap <C-c> <C-\><C-n><CR>
+tnoremap <ESC> <C-\><C-n>:q!<CR>
+" open terminal
+nnoremap <silent> <Leader>= :exe "res +" . (winheight(0) * 2/8)<CR>
+nnoremap <silent> <Leader>- :exe "res -" . (winheight(0) * 2/8)<CR>
+nnoremap <silent> <Leader>v= :exe "vertical res +" . (winwidth(0) * 2/6)<CR>
+nnoremap <silent> <Leader>v- :exe "vertical res -" . (winwidth(0) * 2/6)<CR>
 
 inoremap <silent><expr> <c-space> coc#refresh()
 
@@ -31,5 +39,4 @@ inoremap <expr> <TAB> pumvisible() ? "\<C-y>" : "\<C-g>u\<TAB>"
 inoremap <C-p> pumvisible() ? "k" : <C-p>
 inoremap <C-n> pumvisible() ? <down> : <C-n>
 
-source /home/simon/.config/nvim/autoload/plug.vim
 source /home/simon/.config/nvim/my-plugins/index.vim
