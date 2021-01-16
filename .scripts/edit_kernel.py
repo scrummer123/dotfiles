@@ -2,9 +2,13 @@
 
 from os import listdir, chdir
 from os.path import isdir, join
+from distro import linux_distribution
 
-dirprefix = str("/usr/src/")
+distro_name = linux_distribution(full_distribution_name=False)[0]
+
+dirprefix = str("/usr/src/") if distro_name != 'fedora' else str("/usr/src/kernels/")
 kerneldirs = listdir(dirprefix)
+if len(kerneldirs) == 0: exit()
 kerneldirpaths = [dirprefix + x for x in kerneldirs]
 kernelversions = [0] * len(kerneldirs)
 kernelversionlengths = [0] * len(kerneldirs)
