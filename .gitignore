@@ -1,34 +1,30 @@
 *
+!etc/
+!etc/portage/
+!etc/portage/make.conf
+
 !.gitignore
-!.zshrc
-!.aliasrc
-!.funcsrc
 
-!.scripts/
-!.scripts/*
+!home/
+!home/simon/
 
-!.config/
-.config/*
+!home/simon/.zshrc
+!home/simon/.aliasrc
+!home/simon/.funcsrc
 
-!.config/alacritty/
-!.config/alacritty/**/*
+!home/simon/.scripts/
+!home/simon/.scripts/*
 
-!.config/sway/
-!.config/sway/**/*
+!home/simon/.config/
+home/simon/.config/*
 
-!.config/waybar/
-!.config/waybar/**/*
+!home/simon/.config/alacritty/
+!home/simon/.config/alacritty/**/*
 
-!.config/wofi/
-!.config/wofi/**/*
+!home/simon/.config/nvim/
+!home/simon/.config/nvim/**/*
 
-!.config/rofi/
-!.config/rofi/**/*
-
-
-!.config/nvim/
-!.config/nvim/**/*
-.config/nvim/autoload/
-.config/nvim/autoload/*
-.config/nvim/plugged/
-.config/nvim/plugged/*
+home/simon/.config/nvim/autoload/
+home/simon/.config/nvim/autoload/*
+home/simon/.config/nvim/plugged/
+home/simon/.config/nvim/plugged/*

@@ -11,6 +11,7 @@ export GAMES="${HOME}/Games"
 export SCRIPTS="${HOME}/.scripts"
 
 export PATH="${PATH}:${APPS}/node/bin"
+export PATH="${PATH}:${HOME}/.local/bin"
 export PATH="${PATH}:${APPS}/.local/npm-packages/bin"
 
 export PATH="${PATH}:${APPS}/code/bin"
