@@ -8,7 +8,12 @@ import re
 distro_name = linux_distribution(full_distribution_name=False)[0]
 
 dirprefix = str("/usr/src/") if distro_name != 'fedora' else str("/usr/src/kernels/")
+
 allkerneldirs = listdir(dirprefix)
+if lambda target: "/usr/src/linux" in allkerneldirs:
+    print("/usr/src/linux")
+    exit()
+
 kerneldirs = list(
             filter(lambda directory: re.match("linux-[0-9.]{3,100}(-gentoo)?", directory), allkerneldirs)
         )
