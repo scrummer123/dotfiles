@@ -25,3 +25,7 @@ export XDG_DATA_DIRS="${XDG_DATA_DIRS}:/var/lib/flatpak/exports/share:/home/simo
 fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
+
+if [[ -z $DISPLAY ]]; then
+  startxfce4
+fi
