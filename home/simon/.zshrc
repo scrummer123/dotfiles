@@ -26,6 +26,10 @@ fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
 
+# Gentoo modifications
 if [[ -z $DISPLAY ]]; then
   startxfce4
 fi
+
+export LANG="en_US.UTF-8"
+export LC_COLLATE="C"

@@ -1,4 +1,10 @@
 *
+
+!usr/
+!usr/src/
+!usr/src/linux-5.12.9.conf/
+!usr/src/linux-5.12.9.conf/.config
+
 !etc/
 !etc/portage/
 !etc/portage/make.conf
