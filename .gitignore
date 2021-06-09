@@ -1,36 +1,37 @@
 *
+!.gitignore
 
+# usr/src dir is for kernel config
 !usr/
 !usr/src/
 !usr/src/linux-5.12.9.conf/
 !usr/src/linux-5.12.9.conf/.config
 
 !etc/
+
 !etc/portage/
 !etc/portage/make.conf
 
-!.gitignore
+# etc/skel (skeleton) is the base layout of every user's home directory
+!etc/skel/
 
-!home/
-!home/simon/
+!etc/skel/.zshrc
+!etc/skel/.aliasrc
+!etc/skel/.funcsrc
 
-!home/simon/.zshrc
-!home/simon/.aliasrc
-!home/simon/.funcsrc
+!etc/skel/.scripts/
+!etc/skel/.scripts/*
 
-!home/simon/.scripts/
-!home/simon/.scripts/*
+!etc/skel/.config/
+etc/skel/.config/*
 
-!home/simon/.config/
-home/simon/.config/*
+!etc/skel/.config/alacritty/
+!etc/skel/.config/alacritty/**/*
 
-!home/simon/.config/alacritty/
-!home/simon/.config/alacritty/**/*
+!etc/skel/.config/nvim/
+!etc/skel/.config/nvim/**/*
 
-!home/simon/.config/nvim/
-!home/simon/.config/nvim/**/*
-
-home/simon/.config/nvim/autoload/
-home/simon/.config/nvim/autoload/*
-home/simon/.config/nvim/plugged/
-home/simon/.config/nvim/plugged/*
+etc/skel/.config/nvim/autoload/
+etc/skel/.config/nvim/autoload/*
+etc/skel/.config/nvim/plugged/
+etc/skel/.config/nvim/plugged/*
