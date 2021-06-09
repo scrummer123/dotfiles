@@ -35,3 +35,10 @@ etc/skel/.config/nvim/autoload/
 etc/skel/.config/nvim/autoload/*
 etc/skel/.config/nvim/plugged/
 etc/skel/.config/nvim/plugged/*
+
+# Grub2 conf
+!etc/default/
+!etc/default/grub
+
+!etc/grub.d/
+!etc/grub.d/40_custom
