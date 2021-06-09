@@ -1,4 +1,4 @@
-export ZSH="~$USER/.oh-my-zsh"
+export ZSH="$(eval echo ~${USER})/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
 
