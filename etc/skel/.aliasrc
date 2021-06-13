@@ -1,5 +1,4 @@
 alias \
-  ek="cd $($SCRIPTS/edit_kernel.py)" \
   ea="nvim ~/.aliasrc" \
   es="nvim ~/.zshrc" \
   ef="nvim ~/.funcsrc" \
@@ -9,4 +8,6 @@ alias \
   myip="curl ipinfo.io/ip" \
   shutdown="sudo openrc-shutdown -p now" \
   reboot="sudo openrc-shutdown -r now" \
-  back="cd -"
+  back="cd -" \
+  home="~ && clear" \
+  ds="du -hc --max-depth=1 ."
