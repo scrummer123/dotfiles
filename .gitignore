@@ -4,8 +4,7 @@
 # usr/src dir is for kernel config
 !usr/
 !usr/src/
-!usr/src/linux-5.12.9.conf/
-!usr/src/linux-5.12.9.conf/.config
+!usr/src/.config
 
 !etc/
 
